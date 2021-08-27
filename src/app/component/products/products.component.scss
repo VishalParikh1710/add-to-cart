@@ -1,0 +1,41 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: whitesmoke;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .25rem;
+}
+
+.item {
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.item i:hover{
+    color: black;
+}
+
+.item h6:hover{
+    color: black;
+}
+
+.card{
+    padding: 20px;
+    margin: 30px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: .3s ease-in-out;
+}
+
+.card img:hover{
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
